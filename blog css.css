@@ -13,7 +13,17 @@ header, nav, main, footer {
 header {
     text-align: center;
 }
-
+.title {
+    color: midnightblue;
+    filter: drop-shadow(-0.5px 0 0 mistyrose)
+            drop-shadow(0.5px 0 0 mistyrose)
+            drop-shadow(0 -0.5px 0 mistyrose)
+            drop-shadow(0 0.5px 0 mistyrose);
+  }
+  
+  body {
+    background-color: midnightblue;
+  }
 nav ul {
     list-style-type: none;
     padding: 0;
